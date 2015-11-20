@@ -208,6 +208,14 @@ p.chat-message{
 	.match-info.game-chat{
 		margin-top: -37px; 
 	}
+	.match-info.game-chat p{
+		height: auto;
+	}
+}
+@media screen and (min-width: 990px){
+	.match-info.game-chat p{
+		height: 30px;
+	}
 }
 @media screen and (min-width: 1024px){
 	.profile-menu img{
